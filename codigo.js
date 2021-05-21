@@ -10,30 +10,30 @@ const slider = document.querySelector("#slider");
 
 function printaccesorio(){
     if(slider.value == "0"){
-        accesorio.textContent = "RASCADOR";
-        price.textContent = "100";
-        img.setAttribute('src', 'img/rascador.jpg');
+        accesorio.textContent = "PELOTA";
+        price.textContent = "5";
+        img.setAttribute('src', 'img/pelota.jpg');
 
 
     }else if(slider.value == "25"){
         accesorio.textContent = "BANDANA";
-        price.textContent = "11";
+        price.textContent = "10";
         img.setAttribute('src', 'img/bandanaPerro.jpg');
 
     }else if(slider.value == "50"){
         accesorio.textContent = "GUANTE";
-        price.textContent = "9";
+        price.textContent = "12";
         img.setAttribute('src', 'img/guante.jpg');
 
     }else if(slider.value == "75"){
         accesorio.textContent = "GORRO";
-        price.textContent = "10";
+        price.textContent = "15";
         img.setAttribute('src', 'img/gorro.jpg');
 
     }else if(slider.value == "100"){
-        accesorio.textContent = "PELOTA";
-        price.textContent = "9";
-        img.setAttribute('src', 'img/pelota.jpg');
+        accesorio.textContent = "RASCADOR";
+        price.textContent = "100";
+        img.setAttribute('src', 'img/rascador.jpg');
     }
 }
 
