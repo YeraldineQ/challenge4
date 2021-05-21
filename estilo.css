@@ -1,0 +1,135 @@
+body{
+    background-image: url(img/fondo2.jpg);
+    repeat: no-repeat;
+    background-size: cover;
+}
+
+@font-face {
+    font-family: Asdonuts;
+    src: url(Asdonuts.ttf);
+}
+
+h1{
+    font-family: Asdonuts;
+    font-size: 50px;
+    color: #625ED2;
+}
+
+h4{
+    
+    font-size: 10px;
+}
+
+
+
+
+
+
+.bg-pink-card{
+    background: #8A86E2;
+}
+
+
+
+header label{
+	display: none;
+	width: 30px;
+	height: 20px;
+	padding: 30px;
+	border-right: 1px solid #fff;
+}
+
+header label:hover{
+	cursor: pointer;
+	background: rgba(0,0,0,0.3);
+}
+
+.costo{
+    
+    text-align: right;
+    margin-top: 30px;
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+.costo span, label{
+    margin-left: 10px;
+}
+
+.switch-Container{
+    display: flex;
+    width: 60px;
+    height: 26px;
+}
+
+.switch-Container input{
+    display: none;
+}
+
+.toggle-check{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-color: hsl(223, 50%, 87%);;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.toggle-check::before{
+    content: "";
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 50%;
+    margin-left: 2.6px;
+    transition: .3s;
+}
+
+.switch-Container input:checked + .toggle-check::before{
+    margin-left: 27px;
+    background-color: hsl(174, 77%, 100%);
+}
+
+.switch-Container input:checked + .toggle-check{
+    background-color: #625ED2;
+}
+
+
+
+.slider{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    position: relative;
+    height: 10px;
+    background: linear-gradient(90deg, hsl(242, 56%, 60%) 50%, hsl(0, 0%, 90%) 50%);
+
+}
+
+
+.slider::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 50px;
+    height: 50px;
+    background-image: url("img/icon-slider.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #625ED2;
+    border-radius: 100%;
+    box-shadow: 3px 10px 20px 0px #625ED2;
+    cursor: pointer;
+}
+
+.slider::-webkit-slider-thumb:hover{
+    box-shadow: 0px 0px 10px #625ED2;
+}
+
+
+
+
+
