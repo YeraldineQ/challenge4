@@ -11,28 +11,28 @@ const slider = document.querySelector("#slider");
 function printaccesorio(){
     if(slider.value == "0"){
         accesorio.textContent = "PELOTA";
-        price.textContent = "5";
+        price.textContent = "5000";
         img.setAttribute('src', 'img/pelota.jpg');
 
 
     }else if(slider.value == "25"){
         accesorio.textContent = "BANDANA";
-        price.textContent = "10";
+        price.textContent = "10000";
         img.setAttribute('src', 'img/bandanaPerro.jpg');
 
     }else if(slider.value == "50"){
         accesorio.textContent = "GUANTE";
-        price.textContent = "12";
+        price.textContent = "12000";
         img.setAttribute('src', 'img/guante.jpg');
 
     }else if(slider.value == "75"){
         accesorio.textContent = "GORRO";
-        price.textContent = "15";
+        price.textContent = "15000";
         img.setAttribute('src', 'img/gorro.jpg');
 
     }else if(slider.value == "100"){
         accesorio.textContent = "RASCADOR";
-        price.textContent = "100";
+        price.textContent = "100000";
         img.setAttribute('src', 'img/rascador.jpg');
     }
 }
